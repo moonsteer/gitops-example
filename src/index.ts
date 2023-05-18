@@ -1,5 +1,6 @@
 import main from './main'
 import first from './first'
+import second from './second'
 
 import type { Options } from './main'
 
@@ -9,7 +10,8 @@ export type {
 
 export {
   main,
-  first
+  first,
+  second
 }
 
 export default main
