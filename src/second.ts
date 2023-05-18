@@ -1,8 +1,8 @@
 import main from './main'
 
-export const second = (message: string): void => {
+export const second = (message: string, ignoreMain: boolean = false): void => {
   console.log('second:', message)
-  main({ message })
+  !ignoreMain && main({ message })
 }
 
 export default second
